@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Shape Transformer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="card">
+        <h2>Image Shape Generator</h1>
+            <canvas id="canvas" width="300" height="300" style="display: none;"></canvas>
+            <button class="upload-btn" id="uploadButton">Upload Image</button>
+            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+
+            <div class="imageShow" id="imageShow">
+            <span>Upload Image</span>
+            </div>
+           <select class="select-item" id="shapeSelector">
+            <option value="shape-square">Square</option>
+            <option value="shape-circle">Circle</option>
+            <option value="shape-ellipse">Ellipse</option>
+            <option value="shape-triangle">Triangle</option>
+           
+           
+            
+           </select>
+           <div class="shapes">
+            <button id="apply-shapes">Apply Shape</button>
+            <button id="reset">Reset</button>
+            <button id="download">Download</button>
+           </div>
+       </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>

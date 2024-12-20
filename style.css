@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sahitya:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    height: 520px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.upload-btn{
+    padding-inline: 20px;
+    padding-block: 5px;
+   border: 2px solid blue;
+    background: none;
+    border-radius: 7px;
+    color: blue;
+    font-size: 14px;
+    font-weight: 500;
+}
+.select-item{
+    width: 70%;
+    padding-inline: 15px;
+    border-radius: 5px;
+    padding-block: 7px;
+}
+.select-item:focus{
+    outline: none;
+   border: 2px solid blue;
+
+}
+.card h2{
+    padding-top: 20px;
+    text-align: center;
+}
+.imageShow{
+    width: 250px;
+    height: 220px;
+    background-color: rgb(250, 247, 247);
+}
+.shapes{
+    width: 70%;
+    padding-block: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#apply-shapes{
+    padding-inline: 15px;
+    padding-block: 5px;
+    border-radius: 8px;
+}
+.uploaded-img {
+    width: 250px;
+    height: 220px;
+    background-position: center;
+    object-fit: cover;
+  }
+#reset{
+    padding-inline: 15px;
+    padding-block: 9px;
+    border-radius: 8px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+#apply-shapes{
+    padding-inline: 15px;
+    padding-block: 9px;
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+#download{
+    padding-inline: 15px;
+    padding-block: 9px;
+    border-radius: 8px;
+    background-color: green;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    color: white;
+}
+.shape-square{
+    border-radius: 0;
+}
+.shape-circle{
+    clip-path: circle(50%);
+}
+.shape-ellipse{
+   
+    clip-path: ellipse(25% 40% at 50% 50%);
+}
+.shape-triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.shapeSize{
+    width: 250px;
+    height: 220px;
+}
