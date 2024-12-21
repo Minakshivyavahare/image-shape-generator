@@ -120,3 +120,48 @@
     width: 250px;
     height: 220px;
 }
+
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+        height: 150vh;
+       
+    }
+    .card{
+        padding-block: 20px;
+        width: 400px;
+        height: 590px;
+    }
+    .upload-btn{
+       margin-block: 20px;
+    }
+    .card h2{
+        font-size: 19px;
+    }
+    .imageShow{
+        width: 250px;
+        height: 230px;
+        padding-block: 10px;
+    }
+    .select-item{
+       margin-top: 10px;
+    }
+    .shapes{
+        width: 90%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    #apply-shapes{
+        padding-inline: 40px;
+    }
+    #reset{
+        padding-inline: 65px;
+    }
+    #download{
+        padding-inline: 45px;
+    }
+    
+   
+    
+}
