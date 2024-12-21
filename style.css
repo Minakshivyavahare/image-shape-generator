@@ -124,13 +124,14 @@
 @media (max-width:768px) {
     .container{
         width: 100%;
-        height: 150vh;
+        height: auto;
+        padding-block: none;
+
        
     }
     .card{
-        padding-block: 20px;
-        width: 400px;
-        height: 590px;
+        width: 350px;
+        height: 500px;
     }
     .upload-btn{
        margin-block: 20px;
